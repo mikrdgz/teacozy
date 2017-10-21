@@ -7,13 +7,10 @@ body {
     background-color: black;
     font-size: 22px;
     text-align: center;
+    background-color: black;
 }
 
-.flexbox {
-  display: flex;
-  flex-wrap: wrap;
-justify-content: center;
-}
+
 
 header {
     width: 100%;
@@ -44,6 +41,11 @@ nav {
 
 }
 
+#flexbox {
+  display: flex;
+justify-content: center;
+}
+
 #mission {
   display: flex;
   flex-flow: column wrap;
@@ -53,6 +55,23 @@ nav {
   padding-top: 70px;
   text-align: center;
   justify-content: center;
-  flex-grow: 2;
-  align-content: stretch;
+  margin-bottom: 30px;
+}
+
+.ourmission {
+  background: black;
+}
+
+#store {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#tea {
+margin: 5px 10px;
+
 }
